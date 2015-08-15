@@ -81,5 +81,3 @@ test:
 production:
   <<: *default
   database: fermos_production
-  username: fermos
-  password: <%= ENV['FERMOS_DATABASE_PASSWORD'] %>
